@@ -35,13 +35,14 @@ main {
 
 header {
     background-color: rgb(250, 242, 247);
-    height: 95px;
-    
+    height: 60px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 img{
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    float: left;
  }
  
     
@@ -55,31 +56,37 @@ img{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right;
+    margin: 0 20px;
   }
   
   .barra li {
     display: inline-block;
     margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px
   }
+  .barra li:hover {
+    color: rgb(177, 14, 177);
+    background-color: rgb(240, 197, 201);
+}
   
   .barra li:last-child {
     margin-right: 0;
   }
 
 nav {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-family: 'Lato', sans-serif;
   color: rgb(128, 89, 118);
   font-size: smaller
-  
 }
 
 .yop {
-    width: 140px;
-    height: 140px;
+    width: 190px;
+    height: 190px;
     display: block;
     margin: 0 auto;
+    margin-top: 30px;
   }
 
  body{
@@ -90,10 +97,11 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align:center;
     font-family:'Ysabeau', sans-serif;
   color: rgb(150, 38, 122);
-  font-size: larger;
+  font-size: 1.5rem;
+  margin-top: 50px;
  }
 
  h1 {
@@ -101,9 +109,9 @@ nav {
   }
 
  p {
-    text-align: justify;
+    text-align:right;
     text-justify: inter-word;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     text-indent: 15px;
     font-family:'Ysabeau', sans-serif;
@@ -113,12 +121,13 @@ nav {
     
     text-align: center;
     text-justify: inter-word;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-indent: 15px;
     font-family:'Ysabeau', sans-serif;
     color: rgb(243, 235, 241);
     padding: 15px;
+    font-size: 0.9em;
   }
   p2{
     text-align: justify;
@@ -129,6 +138,7 @@ nav {
     text-indent: 15px;
     font-family:'Ysabeau', sans-serif;
     color: rgb(245, 241, 244);
+    font-size: 0.9em;
   }
  
  footer{
@@ -141,6 +151,7 @@ nav {
 .descarga{
     text-align: center;
     margin-bottom: 70px;
+    margin-top: 20px;
 }
 
 .boton{
