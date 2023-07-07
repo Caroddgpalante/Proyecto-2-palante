@@ -24,4 +24,15 @@ dropdownBtn.addEventListener('click', () => {
     boton.style.color = '';
   });
 
-  
+  const logo = document.querySelector(".logo");
+const modal = document.querySelector(".modal");
+const close = document.querySelector(".close");
+
+logo.addEventListener("click", (event) => {
+  event.preventDefault();
+  modal.style.display = "block";
+});
+
+close.addEventListener("click", () => {
+  modal.style.display = "none";
+});
